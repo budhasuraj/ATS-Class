@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Nast College
-        </title>
+        <title>NAST College, Dhangadhi</title>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/js/college.js"></script>
     </head>
 <body>
     <h2>Introduction</h2>
-    <p>
+    <p class="Intro">
         Among the affiliated educational institutions of Pokhara University,
         it is the first educational institution to receive the Quality Assurance
         and Accreditation (QAA) certificate from the University Grants Commission (UGC).
@@ -17,7 +18,7 @@
     </div>
 
     <h2>QAA Certified and 24 Years of Experience</h2>
-    <p>
+    <p class="Intro">
         National Academy of Science and Technology, popularly known as NAST, is an QAA Certified, english medium co-
         educational Institution. Patroned and promoted by a team of academicians, researchers and professionals renowned
         both at home and abroad, NAST has proved itself as a centre of learning for academic excellence in the field of
@@ -27,17 +28,11 @@
     </p>
 
     <h2>Contact Us</h2>
-    <form action="post" id="contact">
-        <label for="Name">Name:</label>
-        <input type="text" id="Name" name="Name">
-
-        <label for="Email">Email:</label>
-        <input type="text" id="Email" name="Email">
-
-        <label for="Message">Message:</label>
-        <input type="text" id="Message" name="Message">
-
-        <button type="submit" id="saveButton">save</button>
+    <form  action="submit", class="contact">
+        name:<input type="text"><br>
+        email:<input type="text"><br>
+        message:<input type="text"><br>
+        <button class="btn" type="submit">Submit</button>
     </form>
 </body>
 
